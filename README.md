@@ -9,7 +9,7 @@ Assert.isTrue(false, 'Value must be true');	// FAILS
 Assert.isTrue(true, 'Value must be true'); // OK
 
 Assert.isFalse(true, 'Value must be false');	// FAILS
-Assert.isFalse(false, 'Value must be true');// OK
+Assert.isFalse(false, 'Value must be false');// OK
 
 Assert.isEqual(4, 5, 'Values must be the same');	// FAILS
 Assert.isEqual(4, "4", 'Values must be the same');	// OK
@@ -46,7 +46,7 @@ Assert.isNotNull(null, 'Value must be null');// FAILS
 Assert.isNotNull(!null, 'Value must be null');// OK
 
 Assert.isArray(5, 'Value must be an array');// FAILS
-Assert.isString([5], 'Value must be a string');// OK
+Assert.isArray([5], 'Value must be a array');// OK
 
 Assert.isNumber("5", 'Value must be a number');// FAILS
 Assert.isNumber(5, 'Value must be a number');// OK
