@@ -3,7 +3,7 @@ Assert Library For Javascript
 
 No library required.
 
-# LOGICAL
+<h4>Logical Examples</h4>
 ```javascript
 Assert.isTrue(false, 'Value must be true');	// FAILS
 Assert.isTrue(true, 'Value must be true'); // OK
@@ -31,7 +31,7 @@ Assert.isLower(5, 8, 'Current value should be greater than expected');	// OK
 Assert.isLowerEqual(8, 8, 'Current value should be greater than expected');	// OK
 ```
 
-# TYPES
+<h4>Type Examples</h4>
 ```javascript
 Assert.isDefined(undefined, 'Value must be defined');// FAILS
 Assert.isDefined(5, 'Value must be defined');// OK
@@ -58,7 +58,7 @@ Assert.isString(5, 'Value must be a string');// FAILS
 Assert.isString("5", 'Value must be a string');// OK
 ```
 
-# REGEX
+<h4>Regex Examples</h4>
 ```javascript
 Assert.validateEmail('test', 'Value must be an email');// FAILS
 Assert.validateRegex('123.4', /[0-9]*\.[0-9]*/, 'Value must be valid');// OK
